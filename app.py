@@ -324,7 +324,7 @@ def sidebar():
 def overview():
 
     st.markdown(
-        '<div class="main-title">🚦 SUMO RL Traffic Optimization Dashboard</div>',
+        '<div class="main-title">🚦 Adaptive Traffic Signal Control</div>',
         unsafe_allow_html=True
     )
 
