@@ -89,32 +89,33 @@ The sidebar (**SUMO Control**) has six pages, a project card showing the active 
 ### 1. Overview
 Status of the RL and evolutionary results, the number of traffic records, the **RL vs Fixed-Time Baseline** table, and a summary of the evolutionary run.
 
-![Overview](docs/screenshots/01-overview.png)
+![Overview](/Users/khushijain/Downloads/Data Science/Project/Screenshots/Overview.png)
 
 ### 2. RL Training
 Training configuration (episodes, steps per episode, total steps), final training statistics (latest reward, steps, number of Q-table states, signal changes), and charts for **reward per episode**, **exploration rate (epsilon)** and **Q-table state growth**.
 
-![RL training](docs/screenshots/02-rl-training.png)
+![RL training](/Users/khushijain/Downloads/Data Science/Project/Screenshots/RL Training.png)
 
 ### 3. Evolutionary Optimization
 Best fitness, waiting time, queue and throughput; how the **Phase 1** and **Phase 2 durations** evolve; **best and average fitness** per generation; and a full **Generation Results** table.
 
-![Evolutionary optimization](docs/screenshots/03-evolutionary-optimization.png)
+![Evolutionary optimization](Screenshots/Screenshot 2026-10-25 at 2.42.30 AM.png)
+![Evolutionary optimization](Screenshots/Screenshot 2026-10-25 at 2.42.47 AM.png)
 
 ### 4. Comparison
 The fixed-time vs Q-learning table, a bar chart of **percentage improvement** per metric, a side-by-side bar chart of raw values, and a **Download Comparison Results** button.
 
-![Comparison](docs/screenshots/04-comparison.png)
+![Comparison](/Users/khushijain/Downloads/Data Science/Project/Screenshots/Screenshot 2026-10-25 at 2.42.57 AM.png)
 
 ### 5. Traffic Analysis
 Metrics and time-series charts over simulation steps (**waiting time**, **queue length**, **throughput**, **signal phase**) plus the full **Traffic Dataset** table (`episode`, `step`, `vehicles`, `queue`, `waiting_time`, `average_speed`, `phase`, `throughput`) with a **Download Traffic Dataset** button.
 
-![Traffic analysis](docs/screenshots/05-traffic-analysis.png)
+![Traffic analysis](/Users/khushijain/Downloads/Data Science/Project/Screenshots/Screenshot 2026-10-25 at 2.43.22 AM.png)
 
 ### 6. About
 A short description of the methods, the traffic metrics and the project files.
 
-![About](docs/screenshots/06-about.png)
+![About](/Users/khushijain/Downloads/Data Science/Project/Screenshots/Screenshot 2026-10-25 at 2.43.46 AM.png)
 
 All charts are interactive Plotly figures: hover for exact values, zoom, pan, and export as PNG.
 
