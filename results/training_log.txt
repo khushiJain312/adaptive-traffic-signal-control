@@ -1,0 +1,160 @@
+======================================================================
+Starting: evolution.py
+======================================================================
+
+============================================================
+EVOLUTIONARY TRAFFIC SIGNAL OPTIMIZATION
+============================================================
+Population size : 10
+Generations     : 20
+Steps/episode   : 500
+Mutation rate   : 0.2
+Phase count     : 2
+
+
+============================================================
+GENERATION 1/20
+============================================================
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 2ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~24000.00UPS, TraCI: 29ms, vehicles TOT 53 ACT 24 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 104 ACT 25 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 38ms, vehicles TOT 155 ACT 25 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 31ms, vehicles TOT 206 ACT 26 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 257 ACT 29 BUF 0)                 
+Generation  1 | Individual  1 | Policy [47, 51] | Waiting    91.96 | Queue   5.83 | Vehicles  18.48 | Throughput    0 | Fitness    -103.62
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 0ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~15000.00UPS, TraCI: 30ms, vehicles TOT 53 ACT 15 BUF 0) Step #200.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 15ms, vehicles TOT 104 ACT 13 BUF 0)Step #300.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 15ms, vehicles TOT 155 ACT 16 BUF 0)Step #400.00 (4ms ~= 250.00*RT, ~4000.00UPS, TraCI: 12ms, vehicles TOT 206 ACT 16 BUF 0)  Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 13 BUF 0)                 
+Generation  1 | Individual  2 | Policy [23, 30] | Waiting    25.22 | Queue   2.95 | Vehicles  15.29 | Throughput    2 | Fitness     -30.12
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 3ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (1ms ~= 1000.00*RT, ~15000.00UPS, TraCI: 15ms, vehicles TOT 53 ACT 15 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 15 BUF 0)                 Step #300.00 (1ms ~= 1000.00*RT, ~12000.00UPS, TraCI: 21ms, vehicles TOT 155 ACT 12 BUF 0)Step #400.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 206 ACT 16 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 13 BUF 0)                 
+Generation  1 | Individual  3 | Policy [18, 35] | Waiting    30.73 | Queue   3.21 | Vehicles  15.71 | Throughput    2 | Fitness     -36.14
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 2ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (1ms ~= 1000.00*RT, ~18000.00UPS, TraCI: 15ms, vehicles TOT 53 ACT 18 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 47ms, vehicles TOT 104 ACT 17 BUF 0)                 Warning: Vehicle 'cars_sn.29' performs emergency braking on lane '-E2Node2_5_NB_0' with decel=9.00, wished=4.50, severity=1.00, time=269.00.
+Warning: Vehicle 'cars_sn.29' performs emergency stop at the end of lane '-E2Node2_5_NB_0' because of a red traffic light (decel=-13.52, offset=1.74), time=269.00.
+Step #300.00 (0ms ?*RT. ?UPS, TraCI: 14ms, vehicles TOT 155 ACT 16 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 69ms, vehicles TOT 206 ACT 15 BUF 0)                 Warning: Vehicle 'cars_sn.53' performs emergency braking on lane '-E2Node2_5_NB_0' with decel=9.00, wished=4.50, severity=1.00, time=485.00.
+Warning: Vehicle 'cars_sn.53' performs emergency stop at the end of lane '-E2Node2_5_NB_0' because of a red traffic light (decel=-13.52, offset=1.01), time=485.00.
+Step #500.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 17ms, vehicles TOT 257 ACT 17 BUF 0)
+Generation  1 | Individual  4 | Policy [33, 21] | Waiting    26.14 | Queue   2.85 | Vehicles  15.14 | Throughput    2 | Fitness     -30.83
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 4ms, vehicles TOT 4 ACT 4 BUF 0)       Warning: Vehicle 'cars_sn.9' performs emergency braking on lane '-E2Node2_5_NB_0' with decel=9.00, wished=4.50, severity=1.00, time=89.00.
+Warning: Vehicle 'cars_sn.9' performs emergency stop at the end of lane '-E2Node2_5_NB_0' because of a red traffic light (decel=-13.76, offset=3.43), time=89.00.
+Step #100.00 (0ms ?*RT. ?UPS, TraCI: 46ms, vehicles TOT 53 ACT 25 BUF 0)                  Warning: Vehicle 'cars_sn.19' performs emergency braking on lane '-E2Node2_5_NB_0' with decel=9.00, wished=4.50, severity=1.00, time=179.00.
+Warning: Vehicle 'cars_sn.19' performs emergency stop at the end of lane '-E2Node2_5_NB_0' because of a red traffic light (decel=-13.49, offset=2.49), time=179.00.
+Step #200.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 33ms, vehicles TOT 104 ACT 16 BUF 0)Warning: Vehicle 'cars_sn.29' performs emergency braking on lane '-E2Node2_5_NB_0' with decel=9.00, wished=4.50, severity=1.00, time=269.00.
+Warning: Vehicle 'cars_sn.29' performs emergency stop at the end of lane '-E2Node2_5_NB_0' because of a red traffic light (decel=-13.32, offset=1.06), time=269.00.
+Step #300.00 (0ms ?*RT. ?UPS, TraCI: 31ms, vehicles TOT 155 ACT 16 BUF 0)                 Warning: Vehicle 'cars_sn.39' performs emergency braking on lane '-E2Node2_5_NB_0' with decel=9.00, wished=4.50, severity=1.00, time=359.00.
+Warning: Vehicle 'cars_sn.39' performs emergency stop at the end of lane '-E2Node2_5_NB_0' because of a red traffic light (decel=-13.23, offset=1.64), time=359.00.
+Step #400.00 (0ms ?*RT. ?UPS, TraCI: 29ms, vehicles TOT 206 ACT 20 BUF 0)                 Warning: Vehicle 'cars_sn.49' performs emergency braking on lane '-E2Node2_5_NB_0' with decel=9.00, wished=4.50, severity=1.00, time=449.00.
+Warning: Vehicle 'cars_sn.49' performs emergency stop at the end of lane '-E2Node2_5_NB_0' because of a red traffic light (decel=-13.63, offset=3.32), time=449.00.
+Step #500.00 (1ms ~= 1000.00*RT, ~19000.00UPS, TraCI: 60ms, vehicles TOT 257 ACT 19 BUF 0)
+Generation  1 | Individual  5 | Policy [51, 39] | Waiting    77.46 | Queue   5.29 | Vehicles  17.84 | Throughput    2 | Fitness     -87.04
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 2ms, vehicles TOT 4 ACT 4 BUF 0)                       Warning: Vehicle 'cars_sn.10' performs emergency braking on lane '-E2Node2_5_NB_0' with decel=9.00, wished=4.50, severity=1.00, time=99.00.
+Warning: Vehicle 'cars_sn.10' performs emergency stop at the end of lane '-E2Node2_5_NB_0' because of a red traffic light (decel=-12.05, offset=0.67), time=99.00.
+Step #100.00 (0ms ?*RT. ?UPS, TraCI: 33ms, vehicles TOT 53 ACT 24 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 47ms, vehicles TOT 104 ACT 25 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 48ms, vehicles TOT 155 ACT 24 BUF 0)                 Warning: Vehicle 'cars_ns.39' performs emergency braking on lane 'Node2_7_SB_1' with decel=9.00, wished=4.50, severity=1.00, time=357.00.
+Step #400.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 206 ACT 24 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 38ms, vehicles TOT 257 ACT 25 BUF 0)                 
+Generation  1 | Individual  6 | Policy [58, 42] | Waiting   109.37 | Queue   6.38 | Vehicles  18.62 | Throughput    0 | Fitness    -122.13
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 1ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (1ms ~= 1000.00*RT, ~26000.00UPS, TraCI: 30ms, vehicles TOT 53 ACT 26 BUF 0) Step #200.00 (1ms ~= 1000.00*RT, ~27000.00UPS, TraCI: 31ms, vehicles TOT 104 ACT 27 BUF 0)Step #300.00 (0ms ?*RT. ?UPS, TraCI: 42ms, vehicles TOT 155 ACT 19 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 53ms, vehicles TOT 206 ACT 16 BUF 0)                 Step #500.00 (1ms ~= 1000.00*RT, ~15000.00UPS, TraCI: 40ms, vehicles TOT 257 ACT 15 BUF 0)
+Generation  1 | Individual  7 | Policy [42, 55] | Waiting    86.47 | Queue   5.58 | Vehicles  18.15 | Throughput    0 | Fitness     -97.62
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 1ms, vehicles TOT 4 ACT 4 BUF 0)                       Warning: Vehicle 'cars_sn.7' performs emergency braking on lane '-E2Node2_5_NB_0' with decel=9.00, wished=4.50, severity=1.00, time=70.00.
+Warning: Vehicle 'cars_sn.7' performs emergency stop at the end of lane '-E2Node2_5_NB_0' because of a red traffic light (decel=-15.71, offset=4.50), time=70.00.
+Step #100.00 (0ms ?*RT. ?UPS, TraCI: 33ms, vehicles TOT 53 ACT 16 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 52ms, vehicles TOT 104 ACT 15 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 155 ACT 18 BUF 0)                 Step #400.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 15ms, vehicles TOT 206 ACT 13 BUF 0)Step #500.00 (1ms ~= 1000.00*RT, ~21000.00UPS, TraCI: 15ms, vehicles TOT 257 ACT 21 BUF 0)
+Generation  1 | Individual  8 | Policy [30, 41] | Waiting    51.03 | Queue   4.25 | Vehicles  16.62 | Throughput    0 | Fitness     -59.54
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 1ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 53 ACT 17 BUF 0)                  Warning: Vehicle 'cars_ns.14' performs emergency braking on lane 'Node2_7_SB_0' with decel=9.00, wished=4.50, severity=1.00, time=133.00.
+Warning: Vehicle 'cars_ns.14' performs emergency stop at the end of lane 'Node2_7_SB_0' because of a red traffic light (decel=-12.82, offset=0.97), time=133.00.
+Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 15 BUF 0)                 Step #300.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 15ms, vehicles TOT 155 ACT 17 BUF 0)Step #400.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 23ms, vehicles TOT 206 ACT 14 BUF 0)Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 14 BUF 0)                 
+Generation  1 | Individual  9 | Policy [42, 25] | Waiting    47.05 | Queue   3.83 | Vehicles  16.19 | Throughput    1 | Fitness     -54.21
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 2ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~21000.00UPS, TraCI: 31ms, vehicles TOT 53 ACT 21 BUF 0) Step #200.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 16ms, vehicles TOT 104 ACT 17 BUF 0)Warning: Vehicle 'cars_sn.27' performs emergency braking on lane '-E2Node2_5_NB_0' with decel=9.00, wished=4.50, severity=1.00, time=251.00.
+Warning: Vehicle 'cars_sn.27' performs emergency stop at the end of lane '-E2Node2_5_NB_0' because of a red traffic light (decel=-13.67, offset=0.61), time=251.00.
+
+Policy evaluation error: Connection already closed.

@@ -1,0 +1,9 @@
+Phase,Duration
+0,11
+1,10
+
+Best_Fitness,-5.928
+Average_Waiting_Time,4.532
+Average_Queue,1.198
+Average_Vehicles,13.514
+Throughput,2

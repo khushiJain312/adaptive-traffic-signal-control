@@ -1,0 +1,1094 @@
+======================================================================
+Starting: training.py
+======================================================================
+
+============================================================
+RL TRAINING
+============================================================
+Episodes: 100
+Steps per episode: 500
+Total planned steps: 50000
+
+Action space:
+0 = KEEP current phase
+1 = CHANGE to next phase
+
+SUMO phases: 4
+Minimum phase time: 10s
+Action cooldown: 5s
+
+============================================================
+RL TRAINING - EPISODE 1/100
+============================================================
+Current epsilon: 1.0000
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 4ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 53 ACT 17 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 16 BUF 0)                 Step #300.00 (1ms ~= 1000.00*RT, ~12000.00UPS, TraCI: 15ms, vehicles TOT 155 ACT 12 BUF 0)Step #400.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 206 ACT 16 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 14 BUF 0)                 
+
+------------------------------------------------------------
+Episode 1 completed
+Reward: -577.25
+Steps: 500
+Q-table states: 23
+Signal changes: 44
+Next epsilon: 0.9700
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 2/100
+============================================================
+Current epsilon: 0.9700
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 3ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 31ms, vehicles TOT 53 ACT 14 BUF 0)                  Step #200.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 15ms, vehicles TOT 104 ACT 14 BUF 0)Step #300.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 30ms, vehicles TOT 155 ACT 13 BUF 0)Step #400.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 206 ACT 14 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 14 BUF 0)                 
+
+------------------------------------------------------------
+Episode 2 completed
+Reward: -412.25
+Steps: 500
+Q-table states: 23
+Signal changes: 46
+Next epsilon: 0.9409
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 3/100
+============================================================
+Current epsilon: 0.9409
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 4ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 53 ACT 15 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 104 ACT 14 BUF 0)                 Step #300.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 13ms, vehicles TOT 155 ACT 16 BUF 0)Step #400.00 (1ms ~= 1000.00*RT, ~12000.00UPS, TraCI: 14ms, vehicles TOT 206 ACT 12 BUF 0)Step #500.00 (0ms ?*RT. ?UPS, TraCI: 21ms, vehicles TOT 257 ACT 16 BUF 0)                 
+
+------------------------------------------------------------
+Episode 3 completed
+Reward: -452.65
+Steps: 500
+Q-table states: 25
+Signal changes: 45
+Next epsilon: 0.9127
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 4/100
+============================================================
+Current epsilon: 0.9127
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 5ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 23ms, vehicles TOT 53 ACT 17 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 13 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 14ms, vehicles TOT 155 ACT 17 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 206 ACT 13 BUF 0)                 Step #500.00 (1ms ~= 1000.00*RT, ~15000.00UPS, TraCI: 15ms, vehicles TOT 257 ACT 15 BUF 0)
+
+------------------------------------------------------------
+Episode 4 completed
+Reward: -435.70
+Steps: 500
+Q-table states: 25
+Signal changes: 45
+Next epsilon: 0.8853
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 5/100
+============================================================
+Current epsilon: 0.8853
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 3ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 12ms, vehicles TOT 53 ACT 13 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 17 BUF 0)                 Step #300.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 19ms, vehicles TOT 155 ACT 16 BUF 0)Step #400.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 15ms, vehicles TOT 206 ACT 14 BUF 0)Step #500.00 (1ms ~= 1000.00*RT, ~12000.00UPS, TraCI: 15ms, vehicles TOT 257 ACT 12 BUF 0)
+
+------------------------------------------------------------
+Episode 5 completed
+Reward: -493.60
+Steps: 500
+Q-table states: 27
+Signal changes: 46
+Next epsilon: 0.8587
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 6/100
+============================================================
+Current epsilon: 0.8587
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 2ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 15ms, vehicles TOT 53 ACT 17 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 104 ACT 13 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 155 ACT 14 BUF 0)                 Step #400.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 15ms, vehicles TOT 206 ACT 16 BUF 0)Step #500.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 16ms, vehicles TOT 257 ACT 13 BUF 0)
+
+------------------------------------------------------------
+Episode 6 completed
+Reward: -480.55
+Steps: 500
+Q-table states: 27
+Signal changes: 46
+Next epsilon: 0.8330
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 7/100
+============================================================
+Current epsilon: 0.8330
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 3ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 53 ACT 17 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 16 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 155 ACT 12 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 206 ACT 15 BUF 0)                 Step #500.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 16ms, vehicles TOT 257 ACT 14 BUF 0)
+
+------------------------------------------------------------
+Episode 7 completed
+Reward: -486.80
+Steps: 500
+Q-table states: 27
+Signal changes: 47
+Next epsilon: 0.8080
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 8/100
+============================================================
+Current epsilon: 0.8080
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 3ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 53 ACT 17 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 14ms, vehicles TOT 104 ACT 13 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 155 ACT 14 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 206 ACT 16 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 30ms, vehicles TOT 257 ACT 13 BUF 0)                 
+
+------------------------------------------------------------
+Episode 8 completed
+Reward: -531.15
+Steps: 500
+Q-table states: 28
+Signal changes: 46
+Next epsilon: 0.7837
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 9/100
+============================================================
+Current epsilon: 0.7837
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 1ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 15ms, vehicles TOT 53 ACT 17 BUF 0) Step #200.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 15ms, vehicles TOT 104 ACT 13 BUF 0)Step #300.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 155 ACT 12 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 206 ACT 15 BUF 0)                 Step #500.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 16ms, vehicles TOT 257 ACT 13 BUF 0)
+
+------------------------------------------------------------
+Episode 9 completed
+Reward: -551.90
+Steps: 500
+Q-table states: 28
+Signal changes: 46
+Next epsilon: 0.7602
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 10/100
+============================================================
+Current epsilon: 0.7602
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 2ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 14ms, vehicles TOT 53 ACT 14 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 104 ACT 15 BUF 0)                 Step #300.00 (1ms ~= 1000.00*RT, ~18000.00UPS, TraCI: 15ms, vehicles TOT 155 ACT 18 BUF 0)Step #400.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 206 ACT 12 BUF 0)                 Step #500.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 16ms, vehicles TOT 257 ACT 13 BUF 0)
+
+------------------------------------------------------------
+Episode 10 completed
+Reward: -445.35
+Steps: 500
+Q-table states: 28
+Signal changes: 45
+Next epsilon: 0.7374
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 11/100
+============================================================
+Current epsilon: 0.7374
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 6ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 15ms, vehicles TOT 53 ACT 17 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 13 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 155 ACT 15 BUF 0)                 Step #400.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 16ms, vehicles TOT 206 ACT 13 BUF 0)Step #500.00 (0ms ?*RT. ?UPS, TraCI: 17ms, vehicles TOT 257 ACT 14 BUF 0)                 
+
+------------------------------------------------------------
+Episode 11 completed
+Reward: -444.30
+Steps: 500
+Q-table states: 28
+Signal changes: 46
+Next epsilon: 0.7153
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 12/100
+============================================================
+Current epsilon: 0.7153
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 3ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 24ms, vehicles TOT 53 ACT 15 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 104 ACT 12 BUF 0)                 Step #300.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 14ms, vehicles TOT 155 ACT 14 BUF 0)Step #400.00 (1ms ~= 1000.00*RT, ~15000.00UPS, TraCI: 15ms, vehicles TOT 206 ACT 15 BUF 0)Step #500.00 (3ms ~= 333.33*RT, ~5000.00UPS, TraCI: 14ms, vehicles TOT 257 ACT 15 BUF 0)  
+
+------------------------------------------------------------
+Episode 12 completed
+Reward: -480.20
+Steps: 500
+Q-table states: 29
+Signal changes: 45
+Next epsilon: 0.6938
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 13/100
+============================================================
+Current epsilon: 0.6938
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 4ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~12000.00UPS, TraCI: 18ms, vehicles TOT 53 ACT 12 BUF 0) Step #200.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 15ms, vehicles TOT 104 ACT 17 BUF 0)Step #300.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 155 ACT 13 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 206 ACT 15 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 15 BUF 0)                 
+
+------------------------------------------------------------
+Episode 13 completed
+Reward: -542.55
+Steps: 500
+Q-table states: 30
+Signal changes: 45
+Next epsilon: 0.6730
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 14/100
+============================================================
+Current epsilon: 0.6730
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 4ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 53 ACT 17 BUF 0)                  Step #200.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 15ms, vehicles TOT 104 ACT 13 BUF 0)Step #300.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 13ms, vehicles TOT 155 ACT 14 BUF 0)Step #400.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 206 ACT 16 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 257 ACT 14 BUF 0)                 
+
+------------------------------------------------------------
+Episode 14 completed
+Reward: -530.05
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.6528
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 15/100
+============================================================
+Current epsilon: 0.6528
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 3ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 15ms, vehicles TOT 53 ACT 17 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 104 ACT 17 BUF 0)                 Step #300.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 16ms, vehicles TOT 155 ACT 14 BUF 0)Step #400.00 (1ms ~= 1000.00*RT, ~12000.00UPS, TraCI: 34ms, vehicles TOT 206 ACT 12 BUF 0)Step #500.00 (0ms ?*RT. ?UPS, TraCI: 31ms, vehicles TOT 257 ACT 14 BUF 0)                 
+
+------------------------------------------------------------
+Episode 15 completed
+Reward: -493.20
+Steps: 500
+Q-table states: 31
+Signal changes: 48
+Next epsilon: 0.6333
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 16/100
+============================================================
+Current epsilon: 0.6333
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 5ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 15ms, vehicles TOT 53 ACT 17 BUF 0) Step #200.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 15ms, vehicles TOT 104 ACT 16 BUF 0)Step #300.00 (1ms ~= 1000.00*RT, ~12000.00UPS, TraCI: 14ms, vehicles TOT 155 ACT 12 BUF 0)Step #400.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 206 ACT 16 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 11ms, vehicles TOT 257 ACT 14 BUF 0)                 
+
+------------------------------------------------------------
+Episode 16 completed
+Reward: -378.80
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.6143
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 17/100
+============================================================
+Current epsilon: 0.6143
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 3ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 24ms, vehicles TOT 53 ACT 17 BUF 0) Step #200.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 23ms, vehicles TOT 104 ACT 16 BUF 0)Step #300.00 (0ms ?*RT. ?UPS, TraCI: 14ms, vehicles TOT 155 ACT 12 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 206 ACT 12 BUF 0)                 Step #500.00 (1ms ~= 1000.00*RT, ~15000.00UPS, TraCI: 16ms, vehicles TOT 257 ACT 15 BUF 0)
+
+------------------------------------------------------------
+Episode 17 completed
+Reward: -488.70
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.5958
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 18/100
+============================================================
+Current epsilon: 0.5958
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 5ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 53 ACT 16 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 104 ACT 12 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 29ms, vehicles TOT 155 ACT 14 BUF 0)                 Step #400.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 15ms, vehicles TOT 206 ACT 17 BUF 0)Step #500.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 15ms, vehicles TOT 257 ACT 14 BUF 0)
+
+------------------------------------------------------------
+Episode 18 completed
+Reward: -462.70
+Steps: 500
+Q-table states: 31
+Signal changes: 46
+Next epsilon: 0.5780
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 19/100
+============================================================
+Current epsilon: 0.5780
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 2ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 53 ACT 17 BUF 0)                  Step #200.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 24ms, vehicles TOT 104 ACT 16 BUF 0)Step #300.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 8ms, vehicles TOT 155 ACT 13 BUF 0) Step #400.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 206 ACT 12 BUF 0)                 Step #500.00 (1ms ~= 1000.00*RT, ~15000.00UPS, TraCI: 15ms, vehicles TOT 257 ACT 15 BUF 0)
+
+------------------------------------------------------------
+Episode 19 completed
+Reward: -449.45
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.5606
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 20/100
+============================================================
+Current epsilon: 0.5606
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 5ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 16ms, vehicles TOT 53 ACT 17 BUF 0) Step #200.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 15ms, vehicles TOT 104 ACT 13 BUF 0)Step #300.00 (1ms ~= 1000.00*RT, ~15000.00UPS, TraCI: 15ms, vehicles TOT 155 ACT 15 BUF 0)Step #400.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 26ms, vehicles TOT 206 ACT 16 BUF 0)Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 16 BUF 0)                 
+
+------------------------------------------------------------
+Episode 20 completed
+Reward: -480.70
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.5438
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 21/100
+============================================================
+Current epsilon: 0.5438
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 5ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 53 ACT 17 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 11ms, vehicles TOT 104 ACT 15 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 14ms, vehicles TOT 155 ACT 17 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 206 ACT 16 BUF 0)                 Step #500.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 15ms, vehicles TOT 257 ACT 14 BUF 0)
+
+------------------------------------------------------------
+Episode 21 completed
+Reward: -449.25
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.5275
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 22/100
+============================================================
+Current epsilon: 0.5275
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 2ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 53 ACT 16 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 14 BUF 0)                 Step #300.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 31ms, vehicles TOT 155 ACT 17 BUF 0)Step #400.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 206 ACT 14 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 13 BUF 0)                 
+
+------------------------------------------------------------
+Episode 22 completed
+Reward: -463.60
+Steps: 500
+Q-table states: 31
+Signal changes: 46
+Next epsilon: 0.5117
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 23/100
+============================================================
+Current epsilon: 0.5117
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 2ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 15ms, vehicles TOT 53 ACT 16 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 20ms, vehicles TOT 104 ACT 16 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 155 ACT 12 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 8ms, vehicles TOT 206 ACT 16 BUF 0)                  Step #500.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 15ms, vehicles TOT 257 ACT 14 BUF 0)
+
+------------------------------------------------------------
+Episode 23 completed
+Reward: -486.15
+Steps: 500
+Q-table states: 31
+Signal changes: 46
+Next epsilon: 0.4963
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 24/100
+============================================================
+Current epsilon: 0.4963
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 3ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 15ms, vehicles TOT 53 ACT 17 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 12 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 155 ACT 14 BUF 0)                 Step #400.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 14ms, vehicles TOT 206 ACT 16 BUF 0)Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 16 BUF 0)                 
+
+------------------------------------------------------------
+Episode 24 completed
+Reward: -435.80
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.4814
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 25/100
+============================================================
+Current epsilon: 0.4814
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 4ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~12000.00UPS, TraCI: 17ms, vehicles TOT 53 ACT 12 BUF 0) Step #200.00 (1ms ~= 1000.00*RT, ~12000.00UPS, TraCI: 6ms, vehicles TOT 104 ACT 12 BUF 0) Step #300.00 (1ms ~= 1000.00*RT, ~18000.00UPS, TraCI: 15ms, vehicles TOT 155 ACT 18 BUF 0)Step #400.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 206 ACT 15 BUF 0)                 Step #500.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 18ms, vehicles TOT 257 ACT 16 BUF 0)
+
+------------------------------------------------------------
+Episode 25 completed
+Reward: -454.20
+Steps: 500
+Q-table states: 31
+Signal changes: 45
+Next epsilon: 0.4670
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 26/100
+============================================================
+Current epsilon: 0.4670
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 3ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 24ms, vehicles TOT 53 ACT 17 BUF 0)                  Step #200.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 15ms, vehicles TOT 104 ACT 17 BUF 0)Step #300.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 155 ACT 12 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 206 ACT 16 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 19ms, vehicles TOT 257 ACT 13 BUF 0)                 
+
+------------------------------------------------------------
+Episode 26 completed
+Reward: -463.80
+Steps: 500
+Q-table states: 31
+Signal changes: 46
+Next epsilon: 0.4530
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 27/100
+============================================================
+Current epsilon: 0.4530
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 5ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 15ms, vehicles TOT 53 ACT 16 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 104 ACT 16 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 23ms, vehicles TOT 155 ACT 12 BUF 0)                 Step #400.00 (1ms ~= 1000.00*RT, ~15000.00UPS, TraCI: 15ms, vehicles TOT 206 ACT 15 BUF 0)Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 16 BUF 0)                 
+
+------------------------------------------------------------
+Episode 27 completed
+Reward: -439.50
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.4394
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 28/100
+============================================================
+Current epsilon: 0.4394
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 3ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 14ms, vehicles TOT 53 ACT 16 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 13ms, vehicles TOT 104 ACT 16 BUF 0)                 Step #300.00 (1ms ~= 1000.00*RT, ~12000.00UPS, TraCI: 15ms, vehicles TOT 155 ACT 12 BUF 0)Step #400.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 206 ACT 12 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 26ms, vehicles TOT 257 ACT 14 BUF 0)                 
+
+------------------------------------------------------------
+Episode 28 completed
+Reward: -421.90
+Steps: 500
+Q-table states: 31
+Signal changes: 48
+Next epsilon: 0.4262
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 29/100
+============================================================
+Current epsilon: 0.4262
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 5ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 53 ACT 14 BUF 0)                  Step #200.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 15ms, vehicles TOT 104 ACT 16 BUF 0)Step #300.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 155 ACT 12 BUF 0)                 Step #400.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 27ms, vehicles TOT 206 ACT 13 BUF 0)Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 14 BUF 0)                 
+
+------------------------------------------------------------
+Episode 29 completed
+Reward: -418.30
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.4134
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 30/100
+============================================================
+Current epsilon: 0.4134
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 4ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 16ms, vehicles TOT 53 ACT 16 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 16 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 155 ACT 14 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 206 ACT 16 BUF 0)                 Step #500.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 24ms, vehicles TOT 257 ACT 14 BUF 0)
+
+------------------------------------------------------------
+Episode 30 completed
+Reward: -431.65
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.4010
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 31/100
+============================================================
+Current epsilon: 0.4010
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 4ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 13ms, vehicles TOT 53 ACT 15 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 16 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 13ms, vehicles TOT 155 ACT 12 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 18ms, vehicles TOT 206 ACT 15 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 14 BUF 0)                 
+
+------------------------------------------------------------
+Episode 31 completed
+Reward: -463.60
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.3890
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 32/100
+============================================================
+Current epsilon: 0.3890
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 1ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 15ms, vehicles TOT 53 ACT 17 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 15 BUF 0)                 Step #300.00 (1ms ~= 1000.00*RT, ~12000.00UPS, TraCI: 14ms, vehicles TOT 155 ACT 12 BUF 0)Step #400.00 (0ms ?*RT. ?UPS, TraCI: 34ms, vehicles TOT 206 ACT 12 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 25ms, vehicles TOT 257 ACT 14 BUF 0)                 
+
+------------------------------------------------------------
+Episode 32 completed
+Reward: -409.95
+Steps: 500
+Q-table states: 31
+Signal changes: 48
+Next epsilon: 0.3773
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 33/100
+============================================================
+Current epsilon: 0.3773
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 2ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 53 ACT 15 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 17 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 155 ACT 15 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 206 ACT 14 BUF 0)                 Step #500.00 (1ms ~= 1000.00*RT, ~12000.00UPS, TraCI: 16ms, vehicles TOT 257 ACT 12 BUF 0)
+
+------------------------------------------------------------
+Episode 33 completed
+Reward: -496.10
+Steps: 500
+Q-table states: 31
+Signal changes: 48
+Next epsilon: 0.3660
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 34/100
+============================================================
+Current epsilon: 0.3660
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 4ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (2ms ~= 500.00*RT, ~8000.00UPS, TraCI: 30ms, vehicles TOT 53 ACT 16 BUF 0)   Step #200.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 16ms, vehicles TOT 104 ACT 17 BUF 0)Step #300.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 155 ACT 13 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 206 ACT 12 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 257 ACT 13 BUF 0)                 
+
+------------------------------------------------------------
+Episode 34 completed
+Reward: -413.50
+Steps: 500
+Q-table states: 31
+Signal changes: 48
+Next epsilon: 0.3550
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 35/100
+============================================================
+Current epsilon: 0.3550
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 6ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 15ms, vehicles TOT 53 ACT 16 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 13 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 155 ACT 15 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 206 ACT 16 BUF 0)                 Step #500.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 14ms, vehicles TOT 257 ACT 14 BUF 0)
+
+------------------------------------------------------------
+Episode 35 completed
+Reward: -526.75
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.3444
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 36/100
+============================================================
+Current epsilon: 0.3444
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 3ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 13ms, vehicles TOT 53 ACT 17 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 13 BUF 0)                 Step #300.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 15ms, vehicles TOT 155 ACT 13 BUF 0)Step #400.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 206 ACT 15 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 15 BUF 0)                 
+
+------------------------------------------------------------
+Episode 36 completed
+Reward: -456.75
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.3340
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 37/100
+============================================================
+Current epsilon: 0.3340
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 3ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 17ms, vehicles TOT 53 ACT 14 BUF 0)                  Step #200.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 22ms, vehicles TOT 104 ACT 14 BUF 0)Step #300.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 155 ACT 16 BUF 0)                 Step #400.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 23ms, vehicles TOT 206 ACT 16 BUF 0)Step #500.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 257 ACT 14 BUF 0)                 
+
+------------------------------------------------------------
+Episode 37 completed
+Reward: -431.85
+Steps: 500
+Q-table states: 31
+Signal changes: 49
+Next epsilon: 0.3240
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 38/100
+============================================================
+Current epsilon: 0.3240
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 6ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 53 ACT 17 BUF 0)                  Step #200.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 17ms, vehicles TOT 104 ACT 16 BUF 0)Step #300.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 155 ACT 14 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 206 ACT 14 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 12 BUF 0)                 
+
+------------------------------------------------------------
+Episode 38 completed
+Reward: -468.85
+Steps: 500
+Q-table states: 31
+Signal changes: 48
+Next epsilon: 0.3143
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 39/100
+============================================================
+Current epsilon: 0.3143
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 2ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 53 ACT 16 BUF 0)                  Step #200.00 (1ms ~= 1000.00*RT, ~16000.00UPS, TraCI: 15ms, vehicles TOT 104 ACT 16 BUF 0)Step #300.00 (1ms ~= 1000.00*RT, ~14000.00UPS, TraCI: 15ms, vehicles TOT 155 ACT 14 BUF 0)Step #400.00 (1ms ~= 1000.00*RT, ~12000.00UPS, TraCI: 15ms, vehicles TOT 206 ACT 12 BUF 0)Step #500.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 15ms, vehicles TOT 257 ACT 13 BUF 0)
+
+------------------------------------------------------------
+Episode 39 completed
+Reward: -419.20
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.3049
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 40/100
+============================================================
+Current epsilon: 0.3049
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 4ms, vehicles TOT 4 ACT 4 BUF 0)                       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 53 ACT 17 BUF 0)                  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 104 ACT 13 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 155 ACT 16 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 14ms, vehicles TOT 206 ACT 14 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 17ms, vehicles TOT 257 ACT 14 BUF 0)                 
+
+------------------------------------------------------------
+Episode 40 completed
+Reward: -455.85
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.2957
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 41/100
+============================================================
+Current epsilon: 0.2957
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 5ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~15000.00UPS, TraCI: 15ms, vehicles TOT 53 ACT 15 BUF 0) Step #200.00 (0ms ?*RT. ?UPS, TraCI: 18ms, vehicles TOT 104 ACT 15 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 13ms, vehicles TOT 155 ACT 15 BUF 0)                 Step #400.00 (0ms ?*RT. ?UPS, TraCI: 23ms, vehicles TOT 206 ACT 15 BUF 0)                 Step #500.00 (0ms ?*RT. ?UPS, TraCI: 16ms, vehicles TOT 257 ACT 12 BUF 0)                 
+
+------------------------------------------------------------
+Episode 41 completed
+Reward: -431.25
+Steps: 500
+Q-table states: 31
+Signal changes: 48
+Next epsilon: 0.2868
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 42/100
+============================================================
+Current epsilon: 0.2868
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 2ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (1ms ~= 1000.00*RT, ~17000.00UPS, TraCI: 8ms, vehicles TOT 53 ACT 17 BUF 0)  Step #200.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 104 ACT 16 BUF 0)                 Step #300.00 (0ms ?*RT. ?UPS, TraCI: 9ms, vehicles TOT 155 ACT 15 BUF 0)                  Step #400.00 (0ms ?*RT. ?UPS, TraCI: 8ms, vehicles TOT 206 ACT 13 BUF 0)                  Step #500.00 (3ms ~= 333.33*RT, ~5000.00UPS, TraCI: 20ms, vehicles TOT 257 ACT 15 BUF 0)  
+
+------------------------------------------------------------
+Episode 42 completed
+Reward: -416.35
+Steps: 500
+Q-table states: 31
+Signal changes: 47
+Next epsilon: 0.2782
+------------------------------------------------------------
+============================================================
+RL TRAINING - EPISODE 43/100
+============================================================
+Current epsilon: 0.2782
+
+============================================================
+Starting SUMO
+============================================================
+SUMO: E:\Thapar\Data Science\sumo-win64-1.28.0\bin\sumo.exe
+Config: E:\Thapar\Data Science\project\sumo\RL.sumocfg
+GUI: False
+Connecting through TraCI...
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Traffic light: Node2
+Initial phase: 0
+Step #0.00 (1ms ~= 1000.00*RT, ~4000.00UPS, TraCI: 3ms, vehicles TOT 4 ACT 4 BUF 0)       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 23ms, vehicles TOT 53 ACT 13 BUF 0)                  Step #200.00 (1ms ~= 1000.00*RT, ~15000.00UPS, TraCI: 14ms, vehicles TOT 104 ACT 15 BUF 0)Step #300.00 (0ms ?*RT. ?UPS, TraCI: 15ms, vehicles TOT 155 ACT 15 BUF 0)                 Step #400.00 (1ms ~= 1000.00*RT, ~13000.00UPS, TraCI: 15ms, vehicles TOT 206 ACT 13 BUF 0)Simulation step error: Connection already closed.
+
+------------------------------------------------------------
+Episode 43 completed
+Reward: -397.55
+Steps: 418
+Q-table states: 31
+Signal changes: 38
+Next epsilon: 0.2699
+------------------------------------------------------------

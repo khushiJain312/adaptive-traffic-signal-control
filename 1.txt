@@ -1,0 +1,28 @@
+SUMO / Simulation       ██████████ 100%
+RL implementation       ██████████ 100%
+Evolutionary algorithm  ██████████ 100%
+Baseline                ██████████ 100%
+Comparison              ██████████ 100%
+
+RL performance tuning   ████░░░░░░  40%
+Frontend                ░░░░░░░░░░   0%
+Integration             ░░░░░░░░░░   0%
+Research paper          ████░░░░░░  40%
+Final testing           ██░░░░░░░░  20%
+
+
+Python
+  │
+  ├── Streamlit (app.py) → Web dashboard/UI
+  │
+  ├── Q-Learning (rl_agent.py)
+  │
+  ├── Training (training.py)
+  │
+  ├── Evaluation (evaluate_rl.py)
+  │
+  └── SUMORunner (sumo_runner.py)
+          │
+          └── TraCI
+                │
+                └── SUMO simulator
